@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/heroImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/android"
+        android:scaleType="fitCenter" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00FF00"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/stickyView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#0000FF"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Android is cool!"/>
+</FrameLayout>
+
